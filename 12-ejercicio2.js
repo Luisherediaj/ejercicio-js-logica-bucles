@@ -6,3 +6,20 @@ en ese caso se mostrará el resultado: Mostrar la media y la suma de los número
 Utilizar un bucle.
 */
 
+let numero =0;
+let suma =0;
+let media; 
+
+while (numero >= 0){
+    numero = parseInt(prompt("introduce un numero"));
+    if (numero>=0) {
+        suma = suma + numero;
+    }
+
+    media = (suma/3);
+}
+
+
+document.write("La suma es igual a: " + suma + " y la media es igual a: " + media);
+
+
