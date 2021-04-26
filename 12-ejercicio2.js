@@ -9,16 +9,17 @@ Utilizar un bucle.
 let numero =0;
 let suma =0;
 let media; 
+let count=0;
 
 while (numero >= 0){
     numero = parseInt(prompt("introduce un numero"));
     if (numero>=0) {
         suma = suma + numero;
+        count = count+1;
     }
-
-    media = (suma/3);
 }
 
+media = (suma/ count);
 
 document.write("La suma es igual a: " + suma + " y la media es igual a: " + media);
 
