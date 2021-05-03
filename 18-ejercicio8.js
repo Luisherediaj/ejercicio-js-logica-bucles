@@ -14,10 +14,10 @@ function calculaNumeros(){
     } while (isNaN(num1) || isNaN(num2));
 
     //mostrar en pantalla
-    document.write(`${numero1} + ${numero2} = ${suma(num1, num2)} <br>`);
-    document.write(`${numero1} - ${numero2} = ${resta(num1, num2)} <br>`);
-    document.write(`${numero1} x ${numero2} = ${multiplica(num1, num2)} <br>`);
-    document.write(`${numero1} / ${numero2} = ${division(num1, num2)} <br>`);
+    document.write(`${num1} + ${num2} = ${suma(num1, num2)} <br>`);
+    document.write(`${num1} - ${num2} = ${resta(num1, num2)} <br>`);
+    document.write(`${num1} x ${num2} = ${multiplica(num1, num2)} <br>`);
+    document.write(`${num1} / ${num2} = ${division(num1, num2)} <br>`);
 
 }
 
